@@ -14,18 +14,20 @@
       }
       /* style the element with the id "picture" */
       #picture {
-        width: 1100;
-        height: 826;
+        width: 1100px;
+        height: 826px;
+      }
+      /* style the element with the id "text-color" */
+      #text-color {
+        color: cornflowerblue;
       }
     </style>
   </head>
   <body style="background-color:bisque;">
     <h1 style="color:cornflowerblue;">Tea</h1>
     <p id="mainparagraph">I will be showing a table for how long to brew tea for different types</p>
-    <img src="images/black-tea.jpg" alt="a tea cup with black tea in it" id="picture">
-    <script src="script.js"></script>
   </body>
-  <table border="3" style="width:100%">
+  <table border="3" style="width:100%" id="text-color">
     <hr>
     <tr>
       <th>Type</th>
@@ -40,5 +42,27 @@
       <th>40-60 mgs</th>
     </tr>
     <tr>
+      <th>White Tea</th>
+      <th>Mild, Subtle, Delicate</th>
+      <th>2-3 mins</th>
+      <th>10-15 mgs</th>
+    </tr>
+    <tr>
+      <th>Green Tea</th>
+      <th>Smooth, Fresh, Delicate</th>
+      <th>2-4 mins</th>
+      <th>23-35 mgs</th>
+    </tr>
+    <tr>
+      <th>Herbal Tea</th>
+      <th>Varies with Specific Tea Types</th>
+      <th>5-6 mins</th>
+      <th>None</th>
+    </tr>
   </table>
+  <hr>
+  <body>
+    <img src="images/black-tea.jpg" alt="a tea cup with black tea in it" id="picture">
+    <script src="script.js"></script>
+  </body>
 </html>
